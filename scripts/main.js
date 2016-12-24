@@ -158,7 +158,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
           }.bind(this)).catch(function(error) {
         console.error('There was an error uploading a file to Firebase Storage:', error);
       });
-    }.bind(this));
+    }.bind(this));  
   }
 };
 
